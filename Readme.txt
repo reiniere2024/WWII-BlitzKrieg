@@ -20,6 +20,8 @@ The game has been made for a broad audience which is not familiar with tactical
 wargames yet. All classic rules are still valid, and explained in the manual,
 but the user interface is much more intuitive and easy to play for starters.
 
+When you open the solution in Visual Studio 2008 then don't forget to move all the maps 
+(except My Project) to the bin/debug directory when you want to run the code.
 
 Good luck,
 Reiniere.
