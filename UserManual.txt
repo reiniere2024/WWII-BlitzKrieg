@@ -1,0 +1,180 @@
+Workings (short)
+
+
+1. Unit selection:
+Selection of Units is simple. Just click on a Unit and the unit will be selected.
+The selection can be seen by a blue rectangle shown around the unit. When the unit
+is clicked a 2nd time the unit will be deselected again.
+When there is a ground unit and a plane together in 1 field the ground unit will
+be selected first. When you click a 2nd time the plane will be selected.
+
+
+2. Movement:
+The basic movement of the game is done with the keyboard. You can quickly position
+yourself on the screen with the horizontal ruler but the fine movements of units on 
+the screen must be done with the Keys 'A','D','W' and 'S' or the arrow keys.
+It is also possible to move in diagonal directions by using the [home/pgup/pgdn/end]
+buttons or [q/e/z/c] on the other side. When you want to use the mouse then you can
+move your units using the movement arrows at tha left bottom of the screen.
+Each Unit has a maximum movement allowance. When this MA is reached the Unit will
+not move anymore and the unit will be deselected until next turn.
+This MA is 3 for Tanks and 1 for Infantery, Artillery and Antitank units. Please
+note that it is possible to use normal (or armed) transport for units except for
+Tanks. Just right-click the unit and select "Mount". The unit will then be loaded
+unto the transport which has a maximum MA of 3. When you select "Dismount" the 
+unit will be unloaded again and can then be used in battle.
+
+When moving your Units around the Units of the enemy will not be visible unless
+they get very close. This feature is called FOW (Fog of War).
+
+
+3. Attacks:
+
+a. Ground Units
+Ground Units can attack when they are directly adjacent to enemy units.
+(except for artilley which can also attack from distance)
+Just click on the Enemy unit and an attack will be carried out. Keep in
+mind that each attack will be followed by a counter-attack. The results
+of the attack will be visible in the health of the units and depend on
+the type of units, the surface and possible entrenchment.
+
+b. Air Units:
+Air Units can fight against each other. Just click on another plane and an
+air attack will be carried out. Keep in mind that Fighters are much better
+in air attacks then bomber planes.
+
+Air Units can also bomb/attack ground units. Just click on a ground unit and 
+a ground attack will be carried out. Keep in mind that Bombers are much better
+in ground attacks then fighter planes.
+
+
+4. Rest/Repair/Supply:
+
+All Units are using Ammo. The amount of availible ammo can be seen at the bottom
+when the unit is selected. When the ammo is 0 the unit will not be able to attack
+again and the Ammo must be re-supplied. Tanks and Planes use fuel. The amount of 
+availible fuel can be seen at the bottom when the tank/plane is selected.
+Without fuel the tank/plane will not be able to move anymore and in the case of
+a plane (outside and airport) the plane will be destroyed. So keep in mind to
+return your plane to an airport before it's fuel is lost. In an airport the fuel
+and ammo of the plane will be automatically re-supplied.
+
+When your unit has low health or a small amount of ammo and/or fuel you can restore
+the health and re-supply ammo and fuel by clicking the "Rest/Repair" button.
+When there are no enemy units the health, ammo and fuel will be completely restored,
+but when there are adjacent enemies it will be only partially restored.
+
+
+5. Occupy Cities:
+
+When the defending Unit of a city is killed the City will not be automatically
+conquered. A ground unit needs to enter the city first to conquer the city.
+Please note that Planes that enter an empty city will also not conquer the city.
+
+
+6. Buying New Units/Prestige:
+
+Each side has a number of credits called Prestige that can be used to buy new
+units. Just select the unit in the dropdown-box below and click on buy. The
+price of the unit is also shown in the box. When you want normal or armed
+transport with a ground unit then you must select that in the 2nd box.
+
+New Units for the AXIS can be placed in Posen or Breslay which can be selected
+by the checkboxes below. The Polish forces can be placed in Lodz, Warsaw or in
+the city Siedice.
+
+When a unit is bought the price of the unit is automatically subtracted from the
+Prestige of the forces.
+
+
+
+7. Victory Conditions:
+
+The total game contains at maximum 24 turns for both Axis and Polish forces.
+The game starts with the AXIS and when 'End Turn' is selected go to the Polish
+forces and so on. (when a Human-AI game is selected the Polish turn will be
+played automatically and return to the AXIS when the turn is completed)
+
+All cities that must be occupied by the AXIS forces are shown by a a yellow
+Victory rectangled around the city. When all these Victory cities are occupied
+by the Axis forces before the start of the 25th turn then the AXIS will win
+this battle and otherwise the Polish defenders will win.
+
+Saving/Loading Games:
+When you want to save your game then you must enter the game-number in the field
+"save:" at the bottom and then click the SAVE button. You will see that in the map
+"Saves" 3 xml-files will be made that contain your save-game situation:
+S01_Poland_Settings[nr], S01_Poland_UnitsAxis[nr] and S01_Poland_UnitsAllies[nr].
+
+Please note that you can only save your game at the start of a turn!
+When you want to load the game then enter the game-numer and click on load.
+The corresponding savegame (when present !) will be automatically loaded.
+
+It is also possible to directly load your savegame at the start of the game by
+selecting "Load a saved game" and then select your savegame.
+
+
+8. PBEM Games (Play by email):
+
+WWIIBlitzkrieg is a turn based strategy game which has been made to play with PBEM.
+Of course you can train yourself and get familiar with the game playing against the
+Polish defender AI but it is much more fun to play with PBEM against opponents.
+
+PBEM works like this: You play your turn and at the end your progress will be saved
+with 3 gamefiles (with .SAV extension) You send your gamefiles with email to your
+opponent and het will be able to open them with "Continue PBEM Game" and play his
+own turn. At the end of his turn his progress will also be saved with 3 savefiles
+that he can email to the other so that he can continue.
+
+All gamefiles are encrypted so that noone can cheat with the results of the game
+during the PBEM game. The game-files (.SAV) send by the AXIS will be called:
+S01_Poland_Settings[nr]A,S01_Poland_UnitsAxis[nr]A and S01_Poland_UnitsAllies[nr]A
+and they will be placed in the PBEM directory.
+(There are also XML-files made but they can be disregarded!)
+
+Just send these 3 game-files to the other player and he must place these 3 files
+in his own PBEM directory. 
+
+At the end of his turn his 3 game-files (.SAV) that will be made are:
+S01_Poland_Settings[nr]B,S01_Poland_UnitsAxis[nr]B and S01_Poland_UnitsAllies[nr]B
+and they are also placed in his PBEM directory.
+He must email them to his opponent so that he can continue the PBEM game.
+
+
+9. Battle Parameters:
+
+This paragraph is about the details of the battle resolution and can be skipped 
+if you are not interested in how the battle results are calculated.
+
+For ground attacks 2 things must be (extra) considered. At first the surface that the
+attack takes place. Attack/Defense in Woods and Mountain works better then on normal 
+ground and much worse on Rivers and Swamps .
+Defending units that stay at the same place will entrench themselves which will improve
+their defending. The entrenchment increases with each turn and the maximum entrenchment
+of 2 or 3 will depend on the type of unit. When you select the unit the entrenchment
+will be shown on the bottom.
+
+For the battle resolution of all units a number of parameters of the units are important
+which can be seen at the bottom when the unit is selected:
+
+HA: Hard Attack. The attack against Hard Units (Tank,Artilley,Anti-tank)
+
+SA: Soft Attack. The attack against Soft Units (Infantery)
+
+AA: Air Attack.  The attack in the air between planes.
+
+NA: Naval Attack. (not used in this game)
+
+GD: Ground Defense. The defense against attacking ground units.
+
+AD: Air Defense. The defense against attacking planes.
+
+The attack is placed against the defence in the game (with an addition for surface
+and/or entrenchment) and then the dice are rolled to determine results.
+
+
+
+
+Good Luck,
+Reiniere.
+
